@@ -52,6 +52,7 @@ if(isCollide(snakeArr)){
     snakeArr=[{ x: 13, y: 15 }];
     musicSound.play();
     score = 0;
+  scoreBox.innerHTML ="Score :"  + score
 }
 
    // If snake has eaten the food, incremnet the source and regenerate the food
